@@ -1,0 +1,17 @@
+package basic;
+
+public class Countdigit {
+    public static void main(String[] args) {
+        int number = 132436	;
+        int count = 0;
+        int temp = number; 
+
+        while (temp != 0) {
+            temp = temp / 10; 
+            count++;         
+        }
+
+        System.out.println("The number of digits in " + number + " is: " + count);
+    }
+}
+
